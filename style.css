@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* css for heading */
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+
+}
+
+/* css for choices */
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+   /* opacity: 0.5; */        /*to blur the images*/
+    cursor: pointer;      /*to convert mouse to hand*/
+    background-color: #081b31;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;    /*help to convert images into round or circle */
+
+}
+
+.choices{
+    display: flex;         /* it used to fix item in single line */
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+/* css for scoreboard */
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+    display: flex;           
+    justify-content: center;    
+}
+
+#msg{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    text-align: center;        
+}
+
